@@ -1,0 +1,4 @@
+:root[data-mantine-color-scheme='dark'] {
+  --mantine-color-body: #000;
+  --mantine-color-text: #fff;
+}
