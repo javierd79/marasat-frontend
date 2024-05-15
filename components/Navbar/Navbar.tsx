@@ -54,7 +54,7 @@ export function Navbar() {
       <Container className={classes.inner}>
         <Text className={classes.title}>Marasat</Text>
         <Box className={classes.links} visibleFrom="sm">
-       
+          {/* <Group justify="flex-end">{secondaryItems}</Group> */}
           <Group gap={0} justify="flex-end" className={classes.mainLinks}>
             {mainItems}
           </Group>

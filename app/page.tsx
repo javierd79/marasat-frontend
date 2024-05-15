@@ -14,12 +14,11 @@ export default function HomePage() {
     <>
       <Navbar />
 
-      <Group mt={-200} justify="space-between" mr={25} >
+      <Group mt={-200} style={{justifyContent:'space-around'}}  >
 
         <Image
           w={600}
           h={850}
-          ml={100}
           src='https://github.com/javierd79/marasat-frontend/blob/main/public/starlink.png?raw=true'
           radius="xl"
         />
@@ -40,11 +39,11 @@ export default function HomePage() {
       <Cardservicios />
 
 
-      <Group ml={15} mr={15} mt={35} justify="space-between">
+      <Group ml={15} mr={15} mt={35} mb={70} style={{justifyContent:'space-around'}}>
         <Image
           w={600}
           h={750}
-          src='https://images.unsplash.com/photo-1554629947-334ff61d85dc?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D'
+          src='https://img.freepik.com/vector-gratis/paisaje-montana-diseno-plano-dibujado-mano_23-2149158786.jpg?t=st=1715786003~exp=1715789603~hmac=ed0de09d284702eaed03512fedc9814700653f521e49e0414fee087d0c799d05&w=1060'
           radius="xl"
         />
 
@@ -59,7 +58,7 @@ export default function HomePage() {
         <Image
           w={600}
           h={750}
-          src='https://www.lavanguardia.com/files/og_thumbnail/uploads/2016/01/04/5fa2bc7e588dd.jpeg'
+          src='https://img.freepik.com/foto-gratis/hombre-viendo-su-pelicula-favorita-television_23-2149047399.jpg?t=st=1715786092~exp=1715789692~hmac=430a51da9b9afdbee7f5552d5437b4fbc8e97cdab060218a8cc8786d0902eff8&w=1060'
           radius="xl"
         />
 
